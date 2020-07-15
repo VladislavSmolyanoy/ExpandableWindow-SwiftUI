@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ExpandableWindowView: View {
     
-    @State var smallMode: Bool
+    @State var smallMode = true
     
     @State var titleText: String
     @State var subtitleText: String
